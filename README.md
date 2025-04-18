@@ -1,7 +1,35 @@
+<h1 align="center">
+ Network Recon – Fast & Clean Nmap Wrapper
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Bash-Script-green?style=for-the-badge&logo=gnubash" />
+  <img src="https://img.shields.io/badge/Nmap-Wrapper-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HTB-Ready-orange?style=for-the-badge" />
+</p>
+
+---
+
 # Network-Recon
 ![image](https://github.com/user-attachments/assets/b025b547-a108-4d7e-b9f3-12e19ade02d8)
 
-This script use Nmap and automates network-level scanning for open ports, normally used for HTB machines.
+
+##  About
+
+**`netrecon.sh`** is a Bash-based wrapper for `nmap`, designed to perform **clean**, **automated**, and **aesthetically enhanced** network scans.
+
+This tool is ideal for:
+-  CTF players and HTB enthusiasts
+-  Fast reconnaissance of target IPs
+-  Generating ready-to-read `nmap` outputs
+-  Automating part of the enumeration phase
+
+---
+
+## 💡 Ideal Use Case
+
+You're tackling a new HTB machine and want a **clean, focused, and fast scan** to jumpstart your enumeration process. This tool gives you a battle-ready overview in seconds.
+
 
 ## Instalation
 
