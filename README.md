@@ -41,7 +41,7 @@ chmod +x netrecon.sh
 In case that you want to have this script in your own system:
 ```bash
 sudo cp netrecon.sh /usr/bin/netrecon
-netrecon #write on any location of your Machine (inside of the $PATH)
+netrecon.sh #write on any location of your Machine (inside of the $PATH)
 ```
 
 ## Usage 
