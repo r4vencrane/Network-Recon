@@ -34,13 +34,13 @@ You're tackling a new HTB machine and want a **clean, focused, and fast scan** t
 ```bash
 git clone https://github.com/venomcrane/Network-Recon.git
 cd Network-Recon
-chmod +x netrecon
-./netrecon 
+chmod +x netrecon.sh
+./netrecon.sh
 ```
 
 In case that you want to have this script in your own system:
 ```bash
-sudo cp netrecon /usr/bin/netrecon
+sudo cp netrecon.sh /usr/bin/netrecon
 netrecon #write on any location of your Machine (inside of the $PATH)
 ```
 
@@ -52,7 +52,7 @@ netrecon #write on any location of your Machine (inside of the $PATH)
 Usually with **Hack The Box** Machines
 
 ```bash
-netrecon -i <IP-Address>
+./netrecon.sh -i <IP-Address>
 ```
 Generates a `netScan` file where you can see the entire Nmap Scan in order to look for more information
 
