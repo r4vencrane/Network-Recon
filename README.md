@@ -8,11 +8,9 @@
   <img src="https://img.shields.io/badge/HTB-Ready-orange?style=for-the-badge" />
 </p>
 
+![image](https://github.com/user-attachments/assets/ccdb51df-9c6b-4321-9599-08fdd188d87c)
+
 ---
-
-# Network-Recon
-![image](https://github.com/user-attachments/assets/b025b547-a108-4d7e-b9f3-12e19ade02d8)
-
 
 ##  About
 
@@ -47,13 +45,21 @@ netrecon #write on any location of your Machine (inside of the $PATH)
 ```
 
 ## Usage 
+
+![image](https://github.com/user-attachments/assets/ab983657-b838-47f5-92e9-dc9a6a449e8b)
+
+
 Usually with **Hack The Box** Machines
 
 ```bash
 netrecon -i <IP-Address>
 ```
 Generates a `netScan` file where you can see the entire Nmap Scan in order to look for more information
-![image](https://github.com/user-attachments/assets/15d8e163-4d97-4020-9b0d-9f4f5f0ab123)
+
+
+![image](https://github.com/user-attachments/assets/f7448da5-665a-4534-8cf2-1df95a87cc0a)
+
+
 
 
 
