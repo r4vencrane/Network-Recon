@@ -113,7 +113,7 @@ udp_scan(){
   SPINNER_PID=$!
 
   # Escaneo rápido
-  nmap -sU --top-ports 1000 --open --min-rate 5000 --max-retries 1 -n -Pn -oG udpScan "$ip_address"
+  nmap -sU --top-ports 1000 --open --min-rate 5000 --max-retries 1 -n -Pn -oG udpScan "$ip_address" &>/dev/null
 
 
   kill "$SPINNER_PID" &>/dev/null  # Detener el spinner
@@ -131,7 +131,7 @@ udp_scan(){
     SPINNER_PID=$!
 
     # Escaneo detallado
-    nmap -sU -p "$ports" -sV --version-intensity 5 --script=default,discovery,safe -n -Pn -oN udpScan.txt "$ip_address"
+    nmap -sU -p "$ports" -sV --version-intensity 5 --script=default,discovery,safe -n -Pn -oN udpScan.txt "$ip_address" &>/dev/null
 
     kill "$SPINNER_PID" &>/dev/null
     echo -ne "\r[✔] ${grayColour}Services Scan Completed${endColour}.     \n"
