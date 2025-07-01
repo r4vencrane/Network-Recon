@@ -11,8 +11,7 @@
 </p>
 
 
-
-![image](https://github.com/user-attachments/assets/4b657d4c-11ec-4a33-8de4-4cda8d1a413e)
+![image](https://github.com/user-attachments/assets/baf61c78-9a0d-4269-b2d6-65e7c960e614)
 
 
 
@@ -53,7 +52,7 @@ netrecon -h
 
 ## Usage 
 
-![image](https://github.com/user-attachments/assets/659c3b37-d59a-4249-a26e-0a660f5bb32d)
+![image](https://github.com/user-attachments/assets/7093ae53-762a-41c3-931f-b858af35e5a2)
 
 
 
@@ -66,10 +65,10 @@ Usually with **Hack The Box** Machines
 ```
 
 TCP Scan Example:
-![image](https://github.com/user-attachments/assets/7585f489-8090-43b8-a631-97193a9fcdf4)
+![image](https://github.com/user-attachments/assets/5d8407ee-22dc-48f3-934b-6e3467f1d8bf)
 
 UDP SCAN Example:
-![image](https://github.com/user-attachments/assets/c5bc1f98-3a81-4f49-8144-de64845a3271)
+![image](https://github.com/user-attachments/assets/bab3873c-5df8-40f5-8ee7-1e29c241eee3)
 
 Depending of the type of scan that you selected, it genereates a `tcpScan.txt` or `udpScan.txt` file where you can see the entire Nmap Scan in order to look for more information
 
